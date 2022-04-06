@@ -1,0 +1,499 @@
+/*------------------------------------
+  Social color
+------------------------------------*/
+
+
+
+.text-facebook, .hover-facebook-text:hover i, .hover-facebook a:hover i {
+  color: #3b5998;
+}
+
+.bg-facebook, .btn-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.text-twitter, .hover-twitter-text:hover i, .hover-twitter a:hover i {
+  color: #00aced;
+}
+
+.bg-twitter, .btn-twitter {
+  background-color: #00aced;
+  color: #fff;
+}
+
+.text-instagram, .hover-instagram-text:hover i, .hover-instagram a:hover i {
+  color: #b300ad;
+}
+
+.bg-instagram, .btn-instagram {
+  background-color: #b300ad;
+  color: #fff;
+}
+
+.text-youtube, .hover-youtube-text:hover i, .hover-youtube a:hover i {
+  color: #bd0000;
+}
+
+.bg-youtube, .btn-youtube {
+  background-color: #bd0000;
+  color: #fff;
+}
+
+.text-gplus, .hover-gplus-text:hover i, .hover-gplus a:hover i {
+  color: #eb5e4c;
+}
+
+.bg-gplus, .btn-gplus {
+  background-color: #eb5e4c;
+  color: #fff;
+}
+
+.text-vimeo, .hover-vimeo-text:hover i, .hover-vimeo a:hover i {
+  color: #35c6ea;
+}
+
+.bg-vimeo, .btn-vimeo {
+  background-color: #35c6ea;
+  color: #fff;
+}
+
+.text-envelope, .hover-envelope-text:hover i, .hover-envelope a:hover i {
+  color: #faa33d;
+}
+
+.bg-envelope, .btn-envelope {
+  background-color: #faa33d;
+  color: #fff;
+}
+
+.text-linkedin, .hover-linkedin-text:hover i, .hover-linkedin a:hover i {
+  color: #6697ff;
+}
+
+.bg-linkedin, .btn-linkedin {
+  background-color: #6697ff;
+  color: #fff;
+}
+
+.text-telegram, .hover-telegram-text:hover i, .hover-telegram a:hover i {
+  color: #30a8dc;
+}
+
+.bg-telegram, .btn-telegram {
+  background-color: #30a8dc;
+  color: #fff;
+}
+
+.text-pinterest, .hover-pinterest-text:hover i, .hover-pinterest a:hover i {
+  color: #bd081b;
+}
+
+.bg-pinterest, .btn-pinterest {
+  background-color: #bd081b;
+  color: #fff;
+}
+
+.black a {
+  color: #000;
+}
+
+.post-content ul {
+  color: #474b5f;
+}
+
+.white a {
+  color: #fff;
+}
+/*------------------------------------
+	Member area
+------------------------------------*/
+.sidebar-item.active, .sidebar-item:hover {
+  background-color: #fff;
+  border: 1px solid #e6e7e9;
+  border-right: 0;
+  margin-right: -1px;
+}
+
+.sidebar-menu {
+  border-bottom: 1px solid #e6e7e9;
+  border-top: 1px solid #e6e7e9;
+  border-right: 1px solid #e6e7e9;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: #f4f4f4;
+}
+
+.sidebar-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid transparent;
+}
+
+.sidebar-item.active:hover {
+  background-color: #fff;
+}
+
+.card .icon-big {
+  font-size: 3rem;
+}
+
+.card .icon-big .notif {
+  position: absolute;
+  min-width: 25px;
+  border-radius: 5rem;
+  font-size: 1rem;
+  background: #dc3545;
+  color: #fff;
+}
+
+.card .numbers {
+  text-align: right;
+}
+
+.card .numbers p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card .footer {
+  padding: 0;
+  line-height: 30px;
+}
+
+.side-notif {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 0.8rem;
+  border-radius: 5rem;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.statistics li {
+  padding: 0.25rem 0;
+}
+
+.member-item:hover .card {
+  background-color: #f4f4f4;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar-item.active, .sidebar-item:hover {
+    border-right: 1px solid #e6e7e9;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+
+body{
+    background-color: #f3f3f3;
+   
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+
+}
+p {
+    font-size: 0.875rem;
+    margin-bottom: .5rem;
+    line-height: 1.3rem;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e7eaed;
+    border-radius: 0;
+}
+.card .card-description {
+    margin-bottom: .875rem;
+    font-weight: 400;
+    color: #76838f;
+}
+
+
+
+
+
+
+.profile-header {
+	height: 150px;
+	width: 100%;
+	position: relative;
+}
+
+.cover-image {
+	height: 150px;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+.user-image {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	bottom: -50%;
+	left: 50%;
+	/* top: 50%; */
+	transform: translate(-50%, -50%);
+	z-index: 5;
+}
+
+.user-image img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	top: -40px;
+	border: 5px solid #777;
+}
+
+.profile-card .profile-content {
+	padding: 50px 20px 30px 20px;
+}
+
+
+
+.profile-card .profile-name {
+	font-size: 1.2rem;
+	color: #3249b9;
+	font-weight: 600;
+	text-align: center;
+}
+
+.profile-card .profile-designation {
+	font-size: 13px;
+	color: #777;
+	text-align: center;
+}
+
+.profile-card .profile-description {
+	padding: 10px;
+	font-size: 13px;
+	color: #777;
+	margin: 5px 0px;
+	background-color: #F1F2F3;
+	border-radius: 5px;
+}
+
+.profile-card ul.profile-info-list {
+	padding: 0;
+	margin: 10px 0;
+	list-style: none;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #777;
+}
+
+
+
+
+.profile-card ul.profile-info-list a {
+	text-decoration: none;
+	color:inherit;
+}
+
+
+
+.profile-card a.profile-info-list-item {
+	margin: 10px 0;
+	padding:15px;
+	background-color: #F1F2F3;
+	display: block;
+	 -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+
+.profile-card a.profile-info-list-item:hover {
+    background-color: #9E9E9E;
+    color: white;
+	 -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+	
+}
+
+
+.profile-card a.profile-info-list-item  i {
+	padding: 10px;
+	
+}
+
+ul.about {
+    list-style: none;
+    color: black;
+	padding: 0;
+}
+li.about-items {
+    margin: 10px;
+    font-size: 0.9rem;
+    /* font-family: sans-serif; */
+    /* font-weight: 400; */
+}
+
+
+
+li.about-items i {
+color:#607d8b;
+}
+
+span.about-item-name {
+    width: 100px;
+    display: inline-flex;
+	    margin-left: 10px;
+}
+
+
+span.about-item-detail {
+    display: inline-flex;
+    width: calc(100% - 160px);
+}
+span.about-item-detail > button{
+  margin-right: 10px;
+}
+
+.btn.btn-icon {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+.btn.btn-rounded {
+    border-radius: 50px;
+}
+
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+  background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
+
+
